@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/users/trainers
+content-type: application/json
+
+{
+    "user": {
+        "lastName": "Trainer",
+        "firstName": "Trainer",
+        "password": "password",
+        "emailAddress": "trainer@gmail.com"
+    },
+    "phone": "+33299600887"
+}

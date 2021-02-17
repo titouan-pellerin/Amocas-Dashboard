@@ -1,0 +1,22 @@
+POST http://localhost:8080/api/adherents
+content-type: application/json
+
+{
+    "user": {
+        "lastName": "Pellerin",
+        "firstName": "Titouan",
+        "password": "password",
+        "emailAddress": "titouan.pellerin@gmail.com"
+    },
+    "address": {
+        "addressFirstLine": "23 Maufaire",
+        "addressSecondaryLine": "line two",
+        "city": "Mordelles",
+        "postalCode": "35310"
+    },
+    "birthDate": "2001-09-12",
+    "gender": "male",
+    "registrationDate": "2021-01-30",
+    "phone1": "+33781841863",
+    "phone2": "+33299600887"
+}

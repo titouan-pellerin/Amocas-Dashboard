@@ -1,0 +1,53 @@
+POST http://localhost:8080/api/users/adherents
+content-type: application/json
+
+{
+    "user": {
+        "lastName": "Pellerin",
+        "firstName": "Titouan",
+        "password": "password",
+        "emailAddress": "titouan.pellerin@gmail.com"
+    },
+    "address": {
+        "addressFirstLine": "23 Maufaire",
+        "addressSecondLine": "line two",
+        "city": "Mordelles",
+        "postalCode": "35310"
+    },
+    "birthDate": "2001-09-12",
+    "gender": "male",
+    "registrationDate": "2021-01-30",
+    "phone1": "+33781841863",
+    "personsInCharge": [
+        {
+            "lastName": "Pellerin",
+            "firstName": "Titouan",
+            "password": "password",
+            "emailAddress": "titouan.pellerin@gmail.com",
+            "personInCharge": {
+                "phone1": "phone1",
+                "phone2": "phone2"
+            }
+        },
+        {
+            "lastName": "Pellerin1",
+            "firstName": "Titouan1",
+            "password": "password1",
+            "emailAddress": "titouan.pellerin1@gmail.com",
+            "personInCharge": {
+                "phone1": "phone11",
+                "phone2": "phone21"
+            }
+        }
+    ],
+    "participateTo": [
+        {"ActivityID" : 1},
+        {"ActivityID" : 2},
+        {"ActivityID" : 3},
+    ],
+    "isRegisteredFor": [
+      {"SeasonID": 1},
+      {"SeasonID": 2}
+
+    ]
+}
