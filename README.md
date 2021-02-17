@@ -6,7 +6,7 @@ Webapp permettant à une association de gérer ses adhérents. L'association en 
 
 ***
 
-Ce dépôt correspond à l'API REST qui fait le lien entre la base de données MySQL et [l'interface utilisateur en VueJS]().
+Ce dépôt correspond à l'API REST qui fait le lien entre la base de données MySQL et [l'interface utilisateur en VueJS](https://github.com/titouan-pellerin/Amocas-Dashboard-Front).
 Pour cette API j'utilise NodeJS avec Express pour la gestion des routes et Sequelize comme ORM pour communiquer facilement avec la base de données.
 Le projet est en cours de développement.
 
